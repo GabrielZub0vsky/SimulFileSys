@@ -1,0 +1,102 @@
+<<<<<<< HEAD
+mkdir Sports 
+cd Sports
+mkdir Football
+cd Football
+mkdir Goalkeeper
+mkdir Centerback
+mkdir Fullback
+mkdir LeftWinger
+mkdir Striker
+mkdir @RightWinger
+cd Goalkeeper
+mkdir Buffon
+cd ../Centerback
+mkdir SergioRamos
+cd ../Fullback
+mkdir Trent
+cd ../LeftWinger
+mkdir Neymar
+cd ../Striker
+mkdir Ronaldo
+cd ../@RightWinger
+mkdir %Messi
+cd %Messi
+create best.txt
+Messi is the best 
+cat best.txt
+cd ../../..
+mkdir Basketball
+cd Basketball
+mkdir $PointGuard
+mkdir ShootingGuard
+mkdir SmallForward
+mkdir PowerForward
+mkdir Center
+cd $PointGuard
+mkdir &Curry
+cd ../ShootingGuard
+mkdir Westbrook
+cd ../SmallForward
+mkdir Zion
+cd ../PowerForward
+mkdir LeBron
+cd ../Center
+mkdir Jokic
+tree
+cd Jokic/../../PowerForward/LeBron/../../$PointGuard/&Curry/../../../Football/Goalkeeper/Buffon/../../@RightWinger/%Messi
+pwd
+cd /../..
+pwd
+=======
+mkdir Sports 
+cd Sports
+mkdir Football
+cd Football
+mkdir Goalkeeper
+mkdir Centerback
+mkdir Fullback
+mkdir LeftWinger
+mkdir Striker
+mkdir @RightWinger
+cd Goalkeeper
+mkdir Buffon
+cd ../Centerback
+mkdir SergioRamos
+cd ../Fullback
+mkdir Trent
+cd ../LeftWinger
+mkdir Neymar
+cd ../Striker
+mkdir Ronaldo
+cd ../@RightWinger
+mkdir %Messi
+cd %Messi
+create best.txt
+Messi is the best 
+cat best.txt
+cd ../../..
+mkdir Basketball
+cd Basketball
+mkdir $PointGuard
+mkdir ShootingGuard
+mkdir SmallForward
+mkdir PowerForward
+mkdir Center
+cd $PointGuard
+mkdir &Curry
+cd ../ShootingGuard
+mkdir Westbrook
+cd ../SmallForward
+mkdir Zion
+cd ../PowerForward
+mkdir LeBron
+cd ../Center
+mkdir Jokic
+tree
+cd Jokic/../../PowerForward/LeBron/../../$PointGuard/&Curry/../../../Football/Goalkeeper/Buffon/../../@RightWinger/%Messi
+pwd
+cd /../..
+pwd
+>>>>>>> 38d6b556e347050e44369f72fa3cc6e1f6ff23ba
+exit

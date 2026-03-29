@@ -1,0 +1,22 @@
+project 03 test cases brainstorm
+
+have text files
+	print them
+	remove them
+	find the size
+
+file not found error
+
+make "deep" tree
+	try legal and illegal changing of directories
+
+files of the same name 
+	different directories including subdirectories -> fine
+	same directory -> error 
+
+
+edge cases
+
+wild cd paths
+create with tilde in middle of line
+find same name directories that have different parents

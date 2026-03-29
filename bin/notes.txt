@@ -1,0 +1,116 @@
+Gabriel Zubovsky
+CS 112
+Professor Haskell
+___________________________
+
+PART 1
+
+I tested Project 03 Part 1 by composing a file "input.txt" with a series of commands, one per line, passing this file into my program via the terminal and collecting the resulting outputs into a file "output.txt".
+
+In "input.txt", each command that deals with files/directories is issued twice, once without giving an argument, and once with an argument (name of file/directory to perform the command on). Then, three unknown commands are issued, and finally, the exit command is issued.
+
+
+So far all error reporting has been successful:
+
+- When unknown commands are issued, the error is printed
+
+- When commands requiring name of file/directory are issued without providing name of file/directory, the error is printed
+
+
+My sample inputs with corresponding outputs thus far:
+
+create		  ->   ERROR: file name required for command create
+cat 		  ->   ERROR: file name required for command cat
+rm		  ->   ERROR: file name required for command rm
+mkdir		  ->   ERROR: directory name required for command mkdir
+rmdir		  ->   ERROR: directory name required for command rmdir
+cd		  ->   ERROR: directory name required for command cd
+ls		  ->   Alphabetized list of files/subdirectories in current directory
+du		  ->   Disk usage amount of current directory
+pwd		  ->   Full path to current file/directory
+find		  ->   ERROR: file/directory name required for command find
+create blah	  ->   Created file blah
+cat blah	  ->   Catenated file blah
+rm blah		  ->   Removed file blah
+mkdir blah	  ->   Created directory blah
+rmdir blah	  ->   Removed directory blah
+cd blah		  ->   Traveled to directory blah
+ls blah		  ->   Alphabetized list of files/subdirectories in current directory
+du blah		  ->   Disk usage amount of current directory
+pwd blah 	  ->   Full path to current file/directory
+find blah	  ->   List of all files/subdirectories in current directory with name blah
+debug		  ->   ERROR: Unknown command debug
+compile		  ->   ERROR: Unknown command compile
+spellcheck	  ->   ERROR: Unknown command spellcheck
+exit		  ->   exits the program
+
+
+
+___________________________________________________________________________
+
+
+PROJECT 03 PART 2
+
+I tested Project03 Part 2 by creating text files to test the commands in the program: cd, find, and ls. I have a separate test mode that checks if I provide a file name in command-line, and if so, reads the file and passes commands to my program. My goals were to come up with edge cases that could push the boundaries of the program I wrote, as listed below: 
+
+
+
+Edge cases for create():
+
+- creating file with "/" in name; returns invalid name error because of possible confusion that can happen when commands such as ls(), pwd(), or find() are applied to a file with "/" in its name 
+
+- creating file with ".." in name; valid action, as expected
+
+- creating file with same name as one that already exists in current directory; returns error as expected
+
+- creating file with tilde in the middle of a line of text; file's contents, when printed, indeed do not go past the tilde
+
+
+
+Edge cases for mkdir():
+
+- making a subdirectory inside the current directory with the same name as an already-existing subdirectory; returns error, as expected
+
+- making a subdirectory that contains "/" or ".." in the name; returns invalid name error because commands such as ls(), find(), cd(), and pwd() create confusion when applied to a directory with "/" in its name
+
+
+
+Edge case for rmdir():
+
+- Removing the root directory; which doesn't work, as expected
+
+
+
+Edge cases for cd() (* see test-cd.txt in GitHub):
+
+- cd'ing to /.. just returns back to /, as expected
+
+- cd'ing to a directory/subdirectory that doesn't exist; returns error as expected
+
+- cd'ing to a file; returns error as expected
+
+- cd'ing using a multi-part path that contains ".."'s as well; works as expected
+
+
+
+Edge cases for ls() (*see test-ls.txt in GitHub): 
+
+- capital letters prioritized over alphabetical letters, as expected
+
+- lists all directories alphabetically as expected
+
+
+
+Edge cases for find() (*see test-find.txt in GitHub):
+ 
+- finding files of the same name in different directories; successful as expected
+
+- finding directories of the same name with different parents; successful as expected
+
+- finds files AND directories with desired name and prints full paths
+
+- subdirectories with same name as current directory; finds and prints paths of all matching subdirectories and current directory, as it should
+
+
+
+

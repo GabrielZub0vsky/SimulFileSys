@@ -1,0 +1,49 @@
+mkdir 1
+cd 1
+mkdir pets
+cd pets
+mkdir cat
+mkdir dog
+mkdir fish
+mkdir bird
+cd cat
+create desc
+sharp claws,
+furry, 
+hissing, 
+meowing, 
+prefers solitude~
+cat desc
+cd ../dog
+create desc
+short nails, 
+scratching, 
+furry,
+barking, 
+good companion~
+cat desc
+cd ../fish
+create desc
+bright, 
+colorful, 
+scales,
+fins,
+swims in water, 
+goes glub glub~
+cat desc
+cd ../bird
+create desc
+very social creatures, 
+beak, 
+talons, 
+feathers,
+chirping, 
+speaks words~
+cat desc
+cd ../..
+ls
+du
+pwd
+find desc
+exit
+

@@ -1,0 +1,68 @@
+<<<<<<< HEAD
+mkdir t
+mkdir h
+mkdir e
+mkdir q
+mkdir u
+mkdir i
+mkdir c
+mkdir k
+mkdir b
+mkdir r
+mkdir o
+mkdir w
+mkdir n
+mkdir f
+mkdir x
+mkdir j
+mkdir m
+mkdir p
+mkdir d
+mkdir v
+mkdir l
+mkdir a
+mkdir z
+mkdir y
+mkdir g
+ls
+mkdir blah
+create blah..
+~
+ls
+cd /
+rmdir /
+=======
+mkdir t
+mkdir h
+mkdir e
+mkdir q
+mkdir u
+mkdir i
+mkdir c
+mkdir k
+mkdir b
+mkdir r
+mkdir o
+mkdir w
+mkdir n
+mkdir f
+mkdir x
+mkdir j
+mkdir m
+mkdir p
+mkdir d
+mkdir v
+mkdir l
+mkdir a
+mkdir z
+mkdir y
+mkdir g
+ls
+mkdir blah
+create blah..
+~
+ls
+cd /
+rmdir /
+>>>>>>> 38d6b556e347050e44369f72fa3cc6e1f6ff23ba
+exit

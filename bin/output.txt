@@ -1,0 +1,33 @@
+
+prompt> ERROR: file name required for command create
+
+prompt> ERROR: file name required for command cat
+
+prompt> ERROR: file name required for command rm
+
+prompt> ERROR: directory name required for command mkdir
+
+prompt> ERROR: directory name required for command rmdir
+
+prompt> ERROR: directory name required for command cd
+
+prompt> 
+prompt> 
+prompt> 
+prompt> ERROR: file/directory name required for command find
+
+prompt> Created file blah
+
+prompt> Catenated file blah
+
+prompt> Removed file blah
+
+prompt> Created directory blah
+
+prompt> Removed directory blah
+
+prompt> Created directory blah
+
+prompt> 
+prompt> 
+prompt> 

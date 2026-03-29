@@ -1,0 +1,108 @@
+<<<<<<< HEAD
+find desc
+mkdir 3
+cd 3
+mkdir z
+cd z
+mkdir pets
+cd pets
+mkdir cat
+mkdir dog
+mkdir fish
+mkdir bird
+cd cat
+create desc
+ sharp claws,
+ furry, 
+ hissing, 
+ meowing, 
+ prefers solitude~
+cd ../dog
+create desc
+ short nails, 
+ scratching, 
+ furry,
+ barking, 
+ good companion~
+tree
+cd /
+find desc
+cd /3/z
+find desc
+cd /3/z/pets/cat
+find desc
+cd /3/z/pets/bird
+find desc
+cd /3
+mkdir y
+cd y
+mkdir pets
+cd /
+find pets
+cd /3
+mkdir x
+cd x
+mkdir desc
+cd desc 
+mkdir blah
+cd blah
+mkdir blah
+cd blah
+mkdir desc
+cd /
+find blah
+=======
+find desc
+mkdir 3
+cd 3
+mkdir z
+cd z
+mkdir pets
+cd pets
+mkdir cat
+mkdir dog
+mkdir fish
+mkdir bird
+cd cat
+create desc
+ sharp claws,
+ furry, 
+ hissing, 
+ meowing, 
+ prefers solitude~
+cd ../dog
+create desc
+ short nails, 
+ scratching, 
+ furry,
+ barking, 
+ good companion~
+tree
+cd /
+find desc
+cd /3/z
+find desc
+cd /3/z/pets/cat
+find desc
+cd /3/z/pets/bird
+find desc
+cd /3
+mkdir y
+cd y
+mkdir pets
+cd /
+find pets
+cd /3
+mkdir x
+cd x
+mkdir desc
+cd desc 
+mkdir blah
+cd blah
+mkdir blah
+cd blah
+mkdir desc
+cd /
+find blah
+>>>>>>> 38d6b556e347050e44369f72fa3cc6e1f6ff23ba
+exit
